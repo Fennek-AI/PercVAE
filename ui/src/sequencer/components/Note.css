@@ -1,0 +1,21 @@
+.note {
+    flex: 0 0 var(--note-width);
+    height: var(--note-height);
+    width: var(--note-width);
+    border: var(--note-border-size) solid var(--color-black);
+    box-sizing: border-box;
+    margin-top: var(--note-margin-vert);
+    margin-bottom: var(--note-margin-vert);
+    margin-left: var(--note-margin-horz);
+    margin-right: var(--note-margin-horz);
+    cursor: pointer;
+}
+
+.note.on {
+    background-color: var(--color-dark-grey);
+    transition: background-color 120ms 0 ease;
+}
+
+.note.playing {
+    background-color: var(--color-highlight);
+}

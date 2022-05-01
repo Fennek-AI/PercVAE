@@ -1,0 +1,2 @@
+generate_sound.model_id = "clap_model"
+generate_sound.library_dir = "samples_library"
