@@ -1,6 +1,6 @@
 # PercVAE - Design Percussive Sounds with Deep Learning 🥁
 
-PercVAE is a deep learning-based tool that allows for different types of sample generation of percussive sounds. This is part of the [Fennek AI project](fennek-ai.com) by Clemens Biehl \& Emrehan Firtin.
+PercVAE is a deep learning-based tool that allows for different types of sample generation of percussive sounds. This is part of the [Fennek AI project](https://www.fennek-ai.com) by Clemens Biehl \& Emrehan Firtin.
 
 The deep learning architecture is based on the [SampleVAE by Max Frenzel](https://github.com/maxfrenzel/SampleVAE) which is implemented in TensorFlow and is based on a Variational Autoencoder (VAE) with Inverse Autoregressive Flows (IAF). The backend is based on Python, FastAPI, TensorFlow, Librosa, and for the frontend we used React.js.
 
@@ -30,7 +30,7 @@ conda activate percVAE
 pip install -r app/requirements.txt
 ```
 
-5. Open the "percVAE/fennekservice/mongo.py" file and replace the link with your MongoDB link. If you have issues with this step, go home. Just kidding. Here's [the official documentation](https://www.mongodb.com/docs/guides/server/drivers/)
+5. Open the "percVAE/fennekservice/mongo.py" file and replace the link with your MongoDB link. If you have issues with this step, go home. Just kidding. Here's [the official documentation](https://www.mongodb.com/docs/guides/server/drivers/).
 ```python
 client = pymongo.MongoClient("YOUR LINK HERE")
 ```
@@ -57,16 +57,16 @@ The used .wav-files of the model are mostly copyrighted sounds. If you want to c
 
 To make sure your code changes are reflected in the application, there are some additional steps you need to take. 
 
-For changes in the **frontend (javascript)**, go to the /ui folder and then press
+For changes in the **frontend (javascript)**, go to the /ui folder and run the following in your terminal:
 
-```jsx
+```bash
 npm install
 npm run build
 ```
 
-For changes in the **backend (python):**
+For changes in the **backend (python)**:
 
-```python
+```bash
 python setup.py bdist_wheel
 pip install --upgrade --force-reinstall dist/fennekservice-0.1-py3-none-any.whl 
 ```
