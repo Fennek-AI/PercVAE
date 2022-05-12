@@ -6,7 +6,7 @@ The deep learning architecture is based on the [SampleVAE by Max Frenzel](https:
 
 ## Feature Overview
 
-The features of PercVAE were elicitated in Interviews with 6 music producers based on the  [master's thesis by Emrehan Firtin](https://www.nyan.cat/index.php?cat=jamaicnyan). The idea was to understand to which extent deep variational autoencoder can be used in the sound design process of music producers / or musicians. 
+The features of PercVAE were elicitated in Interviews with 6 music producers based on the  [master's thesis by Emrehan Firtin](https://drive.google.com/file/d/14PqFY33wq77BEJ0_uMPWQDu0E8QRTW5R/view?usp=sharing). The idea was to understand to which extent deep variational autoencoder can be used in the sound design process of music producers / or musicians. 
 
 - **Visualization of Latent Space**: Interact with the latent space of the VAE with a Scatterplot through T-SNE dimensionality reduction
 - **Post Processing capabilities**: Enrich your sounds with an effect rack, experiment with a randomization button and try out our carefully crafted presets
