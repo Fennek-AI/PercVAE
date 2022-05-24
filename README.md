@@ -17,6 +17,8 @@ The features of PercVAE were elicitated in Interviews with 6 music producers bas
 - **User Profiles and User Login**
 - **File Download**
 
+![Generation](https://www.fennek-ai.com/wordpress/wp-content/uploads/2022/05/PercVAE-Prototype-Screenshots-7.png)
+
 ## Installation
 
 1. Clone the Github registry
@@ -77,3 +79,8 @@ Attention: You need to manually copy the react build from the build directory in
 
 The *play original* sound button needs to be enhanced: Currently, it is looking for the original sound file in the applications file structure. However, this shouldn’t be the case: It would make much more sense to take a point in the latent space and decode it. 
 If you want to implement the please reach out to us ;). 
+
+## Additional Screenshots
+![Postprocessing](https://www.fennek-ai.com/wordpress/wp-content/uploads/2022/05/PercVAE-Prototype-Screenshots-14.png)
+![Sequencer](https://www.fennek-ai.com/wordpress/wp-content/uploads/2022/05/PercVAE-Prototype-Screenshots-19.png)
+
